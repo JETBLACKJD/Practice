@@ -1,0 +1,53 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+
+{
+
+	const int BMI_CONSTANT = 703;
+
+	float weight;
+
+	float height;
+
+	float bodyMassIndex;
+
+bool dataAreOK;
+cout << "Enter your weight in pounds. " << endl;
+cin >> weight;
+	
+cout << "Enter your height in inches. " << endl;
+cin >> height;
+
+	if (weight < 0 || height < 0)
+	
+		dataAreOK = false;
+	
+	else
+		
+
+		dataAreOK = true;
+	
+	if ( dataAreOK)
+	
+	{
+
+		bodyMassIndex = weight * BMI_CONSTANT / (height * height);
+
+
+		cout << "Your body mass index is " << bodyMassIndex
+		     		     
+		     << ". " << endl;
+
+		cout << " Interpretation and Instructons. " << endl;
+
+		if (bodyMassIndex < 20)
+			
+			
+		    cout << "Underweight: Have a milk shake." << endl;
+
+		else if (bodyMassIndex <= 25)
+
+	            cout << "Normal: Have a glass of milk." << endl;
