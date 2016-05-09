@@ -1,6 +1,11 @@
 #include <iostream>
 #include <iomanip>
+
+/* Header providig parametric manipulators. Enbles you to use function setw. */
 #include <stdlib.h>
+
+/* Header defines four variable types. "Standard Library." Includes functions involvig memory allocation, process control
+   conversions and others.*/
 using namespace std;
 
 int main(int argc, char* argv[])
