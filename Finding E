@@ -1,0 +1,29 @@
+#include <iostream>
+#include <iomanip>
+#include <stdlib.h>
+using namespace std;
+
+int main(int argc, char* argv[])
+{
+        double E=2.7182818284590452353602874713526624977572470936999595749669676277240766303535475945713821785251664274;
+
+        int decimalPlaces;
+        char* commandLine=argv[1];
+        if(commandLine==NULL)
+{
+
+
+        cout<<"Enter how many decimal places of E you would like to see (limit 100): "<<endl;
+        cin>>decimalPlaces;
+        decimalPlaces+=1;
+}
+        else
+{
+        decimalPlaces=atoi(commandLine);
+        decimalPlaces+=1;
+
+}
+        cout<<setprecision(decimalPlaces)<<E<<endl;
+
+        return 0;
+}
