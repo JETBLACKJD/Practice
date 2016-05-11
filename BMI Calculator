@@ -1,7 +1,5 @@
 #include <iostream>
-
 using namespace std;
-
 int main()
 
 {
@@ -27,8 +25,7 @@ cin >> height;
 	
 	else
 		
-
-		dataAreOK = true;
+	dataAreOK = true;
 	
 	if ( dataAreOK)
 	
@@ -38,8 +35,7 @@ cin >> height;
 
 
 		cout << "Your body mass index is " << bodyMassIndex
-		     		     
-		     << ". " << endl;
+		     		   << ". " << endl;
 
 		cout << " Interpretation and Instructons. " << endl;
 
