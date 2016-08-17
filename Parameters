@@ -1,0 +1,15 @@
+#include <iostream>
+
+using namespace std;
+
+void printStuff(int x){
+    cout << "Jordan's favorite number is " << x << endl;
+}
+
+
+
+int main()
+{
+    printStuff(12);
+    return 0;
+}
