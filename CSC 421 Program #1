@@ -1,0 +1,43 @@
+#include <iostream>
+using namespace std;
+
+int main()
+{
+        struct NodeType {
+        int data;
+        NodeType* link;
+        };
+        
+    NodeType* list;
+    NodeType* p;
+    list = new NodeType;
+    list->data=8;
+    p=list;
+
+    	list = new NodeType;
+   	list->data = 9;
+    	p->link = list;
+    	p= p->link;
+
+    list = new NodeType;
+    list->data =10;
+    p->link = list;
+    p= p->link;
+    
+    	list = new NodeType;
+    	list->data = 11;
+    	p->link = list;
+    	p= p->link;
+    
+    list = new NodeType;
+    list->data =12;
+    p->link = list;
+    p= p->link;
+    
+    	list = new NodeType;
+    	list->data = 13;
+    	p->link = list;
+    	p= p->link;
+
+return 0;
+}
