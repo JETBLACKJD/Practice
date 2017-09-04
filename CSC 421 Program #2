@@ -1,0 +1,33 @@
+#include <iostream>
+using namespace std;
+
+int Rpower( int x, int n );
+int NRpower(int x, int n);
+
+int main() {
+cout << "2^4 = " << Rpower( 2,4 ) << endl;
+cout << "2^4 = " << NRpower( 2,4 ) << endl;
+
+return 0;}
+
+int Rpower( int x, int n ) {
+if ( n == 0 )
+return( 1 );
+else if ( n == 1 )
+return( x );
+else
+return( x * Rpower( x, n-1 ));}
+
+ // end of power()
+
+int NRpower(int x, int n){
+int i;
+int result = 1;
+for(i=1; i<= n; i++)
+    { result = result * x;}
+    return result;}
+
+
+		Output:
+2^4 = 16
+2^4 = 16
