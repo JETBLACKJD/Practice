@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1472751742 source:c:\users\jmand\desktop\practice 1\csc 212\main.cpp
+	<iostream>
+	<iomanip>
+	<math.h>
+
