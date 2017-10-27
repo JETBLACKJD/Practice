@@ -1,2 +1,2 @@
 # Practice
-Contains all the programs that I work on usually focused on my classwork
+This repository focuses mainly on C++ practice and any programs I work on for class.
